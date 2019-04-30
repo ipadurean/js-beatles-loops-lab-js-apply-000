@@ -17,4 +17,13 @@ function theBeatlesPlay(musicians, instruments) {
     }
     return facts;
   }
+
+  function iLoveTheBeatles(num) {
+    var result = [];
+    var i = 0;
+    do { result.push('I love the Beatles!');
+    i++;
+  } while (i < (15-num));
+   return result;
+ }
   
